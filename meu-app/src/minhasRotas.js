@@ -9,8 +9,9 @@ export default function MinhasRotas(){
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home />}/>
-                <Route path="/atv1" element={<atv1 />}/>
-                <Route path="/atv1" element={<atv2 />}/>
+                <Route path="/semana1" element={<atv1 />}/>
+                <Route path="/semana2" element={<atv2 />}/>
+                <Route path="/semana3" element={<atv2 />}/>
             </Routes>
         </BrowserRouter>
     );
