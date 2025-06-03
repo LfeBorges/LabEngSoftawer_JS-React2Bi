@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ComponentesA11 from './componentesA11';
+import ComponentesA11 from './ComponentesA11';
 
 export default function Semana4() {
   return (

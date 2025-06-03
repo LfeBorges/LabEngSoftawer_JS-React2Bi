@@ -15,6 +15,7 @@ export default function MinhasRotas() {
         <Link to="/semana1" style={{ margin: '0 1rem' }}>Semana 01</Link>
         <Link to="/semana2" style={{ margin: '0 1rem' }}>Semana 02</Link>
         <Link to="/semana3" style={{ margin: '0 1rem' }}>Semana 03</Link>
+        <Link to="/semana4" style={{ margin: '0 1rem' }}>Semana 04</Link>
       </div>
 
       <Routes>
