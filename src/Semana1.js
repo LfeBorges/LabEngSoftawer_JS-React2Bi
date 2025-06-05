@@ -9,8 +9,7 @@ export default function Semana1() {
         <li><Link to="/semana1/atividade1">Atividade 1 - Relógio</Link></li>
         <li><Link to="/semana1/atividade2">Atividade 2 - Letreiro</Link></li>
       </ul>
-      <br />
-      <Link to="/">Retornar à página inicial</Link>
+
     </div>
   );
 }

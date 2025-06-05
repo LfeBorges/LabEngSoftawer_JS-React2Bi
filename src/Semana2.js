@@ -18,8 +18,6 @@ export default function Semana2() {
       <h2>Exemplo 3: Avatar</h2>
       <Avatar person={{ name: "Ada Lovelace", avatarUrl: "https://i.imgur.com/7vQD0fPs.jpg" }} />
 
-      <br />
-      <Link to="/">Retornar à página inicial</Link>
     </div>
   );
 }
