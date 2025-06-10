@@ -1,8 +1,14 @@
 export default function Chat({ contact }) {
     return (
-      <section>
-        <h2>Chat com {contact.name}</h2>
-        <p>Enviar mensagem para: {contact.email}</p>
-      </section>
+      <div className="chat-box">
+        <textarea
+          className="chat-textarea"
+          placeholder={`Chat to ${contact.name}`}
+        />
+        <br />
+        <button className="chat-button">
+          Send to {contact.email}
+        </button>
+      </div>
     );
   }
