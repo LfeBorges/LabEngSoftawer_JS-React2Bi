@@ -4,8 +4,10 @@ import Semana1 from "./Semana1";
 import Semana2 from "./Semana2";
 import Semana3 from "./Semana3";
 import Semana4 from './Semana4';
+import Semana5 from "./Semana5";
 import Relogio from "./Componentes/Relogio";
 import Letreiro from "./Componentes/Letreiro";
+import FormQuiz from "./Componentes/formQuiz";
 
 export default function MinhasRotas() {
   return (
@@ -16,6 +18,7 @@ export default function MinhasRotas() {
         <Link to="/semana2" style={{ margin: '0 1rem' }}>Semana 02</Link>
         <Link to="/semana3" style={{ margin: '0 1rem' }}>Semana 03</Link>
         <Link to="/semana4" style={{ margin: '0 1rem' }}>Semana 04</Link>
+        <Link to="/semana5" style={{ margin: '0 1rem' }}>Semana 05</Link>
       </div>
 
       <Routes>
@@ -26,6 +29,8 @@ export default function MinhasRotas() {
         <Route path="/semana2" element={<Semana2 />} />
         <Route path="/semana3" element={<Semana3 />} />
         <Route path="/semana4" element={<Semana4 />} />
+        <Route path="/semana5" element={<Semana5 />} />
+        <Route path="/semana5/formquiz" element={<FormQuiz />} />
       </Routes>
     </BrowserRouter>
   );
